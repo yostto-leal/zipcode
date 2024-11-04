@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+label {
+    margin-bottom: 1rem;
+    margin: 1rem;
+    width: 18rem;
+
+}
+input{
+    margin-bottom: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    width: 18rem;
+    border-radius: 1rem;
+    background-color: lightgrey;
+}
+button {
+  margin: 1rem;
+  padding: 1rem;
+  width: 18rem;
+  border-radius: 1rem;
+  border: 0.5rem solid lighty;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap:0.5rem ;
+  margin-bottom: 5rem;
+  
+
+}
+#resultado{
+  padding: 1rem;
+  margin: 1rem;
+  max-height: 35rem;
+  background-color: lightgrey;
+  border: 0.1rem solid gray;
+
+}
